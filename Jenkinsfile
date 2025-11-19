@@ -115,7 +115,7 @@ pipeline {
         } 
       }
 
-    stage('Run Juice Shop Locally') {
+    stage('Run Juice Shop Locall') {
       steps {
         sh '''
           docker stop juice-shop || true
@@ -169,3 +169,4 @@ pipeline {
     }
   }
 }
+
